@@ -593,6 +593,11 @@ ul {
     position: relative
 }
 
+.tabSection .tab-content article img {
+    object-fit: cover;
+    height: 450px;
+}
+
 .tabSection-disease .tab-content iframe {
     width: 100%;
     min-height: 100px
@@ -2361,11 +2366,6 @@ blockquote h3:after {
     right: 2rem;
     cursor: pointer;
   }
-
-  #modal-iframe {
-    border: 8px solid white;
-    border-radius: 5px;
-  }
   
   
   
@@ -3448,9 +3448,9 @@ blockquote h3:after {
 }
 
 @media only screen and (max-width:575px) {
-    .tabSection .tab-content article {
-        min-height: 100%
-    }
+    .tabSection .tab-content article img {
+    height: 350px;
+}
 
     .tabSection .tab-content iframe {
         min-height: 100px
