@@ -2300,20 +2300,11 @@ blockquote h3:after {
 
 /* -------------- Pop Youtube Video -------------- */
 
-.tab-pane.container {
-    cursor: pointer;
-    position: relative;
-  overflow: hidden;
+.tab-pane.container img{
+    height: 70%;
 }
 
-.open-modal {
-    transition: .5s ease-in-out;
-  }
-  
-  .open-modal:hover {
-    transform: scale(1.1);
-  }
-  
+
 
 .container-video {
     margin-left: 1rem;
