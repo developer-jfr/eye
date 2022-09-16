@@ -2309,7 +2309,10 @@ blockquote h3:after {
 .tab-pane.container img{
     height: 70%;
 }
-
+#modal-iframe {
+    border: 8px solid white;
+    border-radius: 5px;
+}
 
 
 .container-video {
