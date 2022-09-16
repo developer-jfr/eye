@@ -2361,6 +2361,11 @@ blockquote h3:after {
     right: 2rem;
     cursor: pointer;
   }
+
+  #modal-iframe {
+    border: 8px solid white;
+    border-radius: 5px;
+  }
   
   
   
