@@ -587,7 +587,7 @@ ul {
 
 .tabSection .tab-content article {
     width: 100%;
-    min-height: 450px;
+    min-height: auto;
     border: 20px solid #eee;
     text-align: center;
     position: relative
