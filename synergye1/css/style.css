@@ -596,6 +596,7 @@ ul {
 .tabSection .tab-content article img {
     object-fit: cover;
     height: 450px;
+    cursor: pointer;
 }
 
 .tabSection-disease .tab-content iframe {
