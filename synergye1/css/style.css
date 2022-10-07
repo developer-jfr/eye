@@ -3453,8 +3453,22 @@ blockquote h3:after {
 
 @media only screen and (max-width:575px) {
     .tabSection .tab-content article img {
-    height: 350px;
-}
+        height: 200px;
+    }
+
+    .tabSection .tab-content article { 
+
+        border: 5px solid #eee;
+    }
+
+    .sideways-tabs.left-tabs .nav-item  a {
+        font-weight: 600 !important;
+        font-size: 14px !important;
+    }
+
+    .sideways-tabs.left-tabs .nav-item a.nav-link.active {
+        border-bottom: 3px solid #CB4C4E;
+    }
 
     .tabSection .tab-content iframe {
         min-height: 100px
